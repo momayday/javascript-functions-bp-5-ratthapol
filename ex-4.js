@@ -1,2 +1,18 @@
 // Start coding here
-let calculator = {};
+let add = (a,b) => {
+    return 
+    a+b;};
+let subtract = (a,b) => {
+    return
+    a-b;};
+let multiply = (a,b) => {
+    return
+    a*b;};
+let divide = (a,b) => {
+    return
+    a/b;};
+
+let calculator = [add, subtarct, multiply, divide];
+
+console.log(calculator.add(10,20));
+??
