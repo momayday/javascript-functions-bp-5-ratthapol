@@ -1,18 +1,11 @@
 // Start coding here
-let add = (a,b) => {
-    return 
-    a+b;};
-let subtract = (a,b) => {
-    return
-    a-b;};
-let multiply = (a,b) => {
-    return
-    a*b;};
-let divide = (a,b) => {
-    return
-    a/b;};
+let add = (a, b) => {return a + b}
+let subtarct = (a, b) => {return a - b}
+let multiply = (a, b) => {return a * b}
+let divide = (a, b) => {return a / b}
 
-let calculator = [add, subtarct, multiply, divide];
-
-console.log(calculator.add(10,20));
-??
+const obj = {add, subtarct, multiply, divide }
+console.log(obj.add(1, 5));
+console.log(obj.subtarct(5, 4));
+console.log(obj.multiply(1, 5));
+console.log(obj.divide(3, 3));
